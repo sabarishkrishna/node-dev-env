@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+    noel3:
+        build: .
+        hostname: noel
+        ports:
+            - "81:81"
